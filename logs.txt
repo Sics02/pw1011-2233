@@ -1,0 +1,11 @@
+commit 8da6dbfb48590f8fdcdb02648865b9076a80f546
+Author: CCDM06 <CCMD06@CCDM06.local>
+Date:   Thu Sep 7 10:41:06 2023 -0700
+
+    Encabezado y titulo
+
+commit e80f8f1d7d3a8788ca9d11c08f88caa87d71a8ea
+Author: CCDM06 <CCMD06@CCDM06.local>
+Date:   Thu Sep 7 10:32:28 2023 -0700
+
+    Archivos iniciales de la clase
