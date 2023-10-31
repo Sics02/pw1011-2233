@@ -1,0 +1,47 @@
+body{
+    /*border: 1px solid red;*/
+    background: #e3dcdd;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+}
+
+header{
+    text-align: center;
+    margin-top: 100px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: small;
+}
+
+.letra-blanca{
+    color: white;
+}
+
+.letra-grande{
+    font-size: 4em;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+#article1{
+    width: 48%;
+    display: inline-block;
+}
+
+#article2{
+    display: inline-block;
+    width: 48%;
+}
+
+#textoP{
+    /*border: 1px solid red;*/
+    font-style: italic;
+    padding: 75px;
+}
+
