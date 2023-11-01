@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const pi = 3.14;
+        var a = 0;
+        for(a=0;a<=10;a++){
+            document.write(a);
+        }
+        document.write("<br>");
+        document.write(a);
+        document.write("<br>");
+        let b = 999999999;
+        if(b != undefined){
+           document.write(`Valor b ${b}`); 
+        }
+        let z = 4;
+        let y = 8;
+        document.writeln("<br>");
+        document.writeln(""+(z+y));
+        alert("Bienvenidos");
+        let mensaje = prompt("Dime tu nombre","Usuario");
+        document.writeln("<br>");
+        if(mensaje != null){
+          document.writeln(mensaje);  
+        }
+        
+        function sumar(a,b){
+            return a+b;
+        }
+        let f = function(a,b){return a+b;}
+    </script>
+</body>
+</html>
