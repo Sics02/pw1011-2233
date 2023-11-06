@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formularios.html" method="post">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <br>
+        <input type="password" name="clave" placeholder="Clave">
+        <br>
+        <input type="email" name="correo" placeholder="Correo">
+        <br>
+        <input type="number" name="numero" value="10">
+        <br>
+        <p>Seleccione un radio boton</p>
+        <input type="radio" name="botonRadio" value="HTML"> HTML
+        <br>
+        <input type="radio" name="botonRadio" value="CSS"> CSS
+        <br>
+        <input type="radio" name="botonRadio" value="JS"> JS
+        <br>
+        <p>Seleccione un cuadro de chequeo</p>
+        <input type="checkbox" name="botonCheq" value="HTML"> HTML
+        <br>
+        <input type="checkbox" name="botonCheq" value="CSS"> CSS
+        <br>
+        <input type="checkbox" name="botonCheq" value="JS"> JS
+        <br>
+        <input type="button" value="Clic aqui">
+        <br>
+        Subir archivo <br>
+        <input type="file" name="archivo">
+        <br>
+        Seleccione un color <br>
+        <input type="color" name="color">
+        <br>
+        Buscar algo <br>
+        <input type="search" name="buscar">
+        <br>
+        Fechas cortas <br>
+        <input type="date" value="2023-11-06">
+        <br>
+        Fecha larga <br>
+        <input type="datetime-local" value="2023-11-06T10:49:00.00">
+        <br>
+        Semana <br>
+        <input type="week">
+        <br>
+        Mes <br>
+        <input type="month">
+        <br>
+        Caja de texto grande <br>
+        <textarea name="texto" id="" cols="30" rows="10"></textarea>
+        <br>
+        Seleccionar una opcion <br>
+        <select name="opciones" id="" multiple>
+            <option value="-1" disabled selected>Selecciona</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+        </select>
+        <p></p>
+        <input type="submit" value="Enviar datos">
+        <input type="reset" value="Borrar datos">
+    </form>
+</body>
+</html>
